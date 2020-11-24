@@ -1,0 +1,3 @@
+http://keith-wood.name/signature.html
+https://www.itsolutionstuff.com/post/php-signature-pad-example-e-signature-pad-using-jquery-ajax-and-phpexample.html
+http://www.fpdf.org/
