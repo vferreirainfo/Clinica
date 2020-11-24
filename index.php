@@ -24,6 +24,7 @@
 	<script>
 		function login()
 		{
+                        var x=1;
 			var location='';
 			var name = document.getElementById("username").value;
 			var password = document.getElementById("password").value;
