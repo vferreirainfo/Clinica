@@ -65,7 +65,7 @@
                 <div class="collapse navbar-collapse" id="ftco-nav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="about.html" class="nav-link">Sobre</a></li>
+                        <li class="nav-item"><a href="about.php" class="nav-link">Sobre</a></li>
                         <li class="nav-item"><a href="services.html" class="nav-link">Preços</a></li>
                         <li class="nav-item"><a href="cases.html" class="nav-link">Registar</a></li>
                         <li class="nav-item active"><a href="blog.html" class="nav-link">Blog</a></li>
@@ -131,10 +131,10 @@
                 <div class="row mb-5">
                     <div class="col-md">
                         <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-footer-logo">IT<span>solution</span></h2>
-                          
+                             <h2 class="ftco-footer-logo">Siga-nos nas redes sociais</h2>
+                             <p>Fique a par de todo o nosso trabalho entrando numa das redes sociais abaixo. Visite já a nossa página, e fique a par das ultimas novidades</p>
+                             <br>
                             <ul class="ftco-footer-social list-unstyled mt-2">
-                                <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
                                 <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
                                 <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
                             </ul>
@@ -172,7 +172,7 @@
                             <h2 class="ftco-heading-2">Endereço</h2>
                             <div class="block-23 mb-3">
                                 <ul>
-                                    <li><span class="icon fa fa-map marker"></span><span class="text">Rua Elias Garcia nº 23 4490-650 Póvoa de Varzim Portugal</span></li>
+                                    <li><span class="icon fa fa-map marker"></span><span class="text">Rua Elias Garcia, Nº 23 4490-650 Póvoa de Varzim Portugal</span></li>
                                     <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">(+351) 936669133</span></a></li>
                                     <li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">geral@softdiet.pt</span></a></li>
                                 </ul>
