@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>ITSolution - Free Bootstrap 4 Template by Colorlib</title>
+  <title>SoftDiet - QuizWebApp</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
@@ -23,9 +23,10 @@
   <div class="wrap">
    <div class="container">
     <div class="row justify-content-between">
-      <div class="col-12 col-md d-flex align-items-center">
-       <p class="mb-0 phone"><span class="mailus">Phone no:</span> <a href="#">+00 1234 567</a> or <span class="mailus">email us:</span> <a href="#">emailsample@email.com</a></p>
-     </div>
+     
+      <div class="col-12 col-md d-flex align-item   s-center">
+       <p class="mb-0 phone"><span class="mailus">Siga-nos</p>
+      </div>
      <div class="col-12 col-md d-flex justify-content-md-end">
        <div class="social-media">
         <p class="mb-0 d-flex">
@@ -42,7 +43,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
  <div class="container">
-   <a class="navbar-brand" href="index.html">IT<span>solution</span></a>
+     <a class="navbar-brand" href="index.html"><img src="https://scontent.fopo2-2.fna.fbcdn.net/v/t1.0-9/122958446_640492499969556_8572259873588969268_o.png?_nc_cat=105&ccb=2&_nc_sid=09cbfe&_nc_ohc=tRaSdZ7jf7QAX94tIvJ&_nc_oc=AQn8LNUqF0VckvHhOltMS2omxehE0e6tDrOlOAYvutmuXKuO16grgJLf5uKI1OpTC49SmgP0EnIovp7Vm0Pb6Ki8&_nc_ht=scontent.fopo2-2.fna&oh=0ee814649f6e9e188e1690556fd878a1&oe=5FE5FC3C" style="width:50px;height:50px">&nbsp;<p>Soft<span>diet</span></p></a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
      <span class="oi oi-menu"></span> Menu
    </button>
@@ -68,7 +69,7 @@
   <div class="container">
     <div class="row no-gutters slider-text align-items-end justify-content-center">
       <div class="col-md-9 ftco-animate pb-5 text-center">
-        <h1 class="mb-3 bread">About Us</h1>
+        <h1 class="mb-3 bread">Sobre nós</h1>
         <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>About us <i class="fa fa-chevron-right"></i></span></p>
       </div>
     </div>
@@ -346,17 +347,20 @@
   <div class="container">
     <div class="row mb-5">
       <div class="col-md">
-        <div class="ftco-footer-widget mb-4">
-          <h2 class="ftco-footer-logo">IT<span>solution</span></h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-          <ul class="ftco-footer-social list-unstyled mt-2">
-            <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+        <div class="ftco-footer-widget mb-4" style="position:relative">
+          <h2 class="ftco-footer-logo">Siga-nos nas redes sociais</h2>
+          <p>Fique a par de todo o nosso trabalho entrando numa das redes sociais abaixo. Visite já a nossa página, e fique a par das ultimas novidades</p>
+          <br>
+          <ul class="ftco-footer-social list-unstyled mt-2" style="position:absolute; down:50%; left: 30%; margin:-25px 0 0 -25px;">
+            
+            <li class="ftco-animate"><a href="https://www.facebook.com/Softdiet-118708375481307"><span class="fa fa-facebook"></span></a></li>
+            <li class="ftco-animate"><a href="https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fsoftdiet.software%3Ffbclid%3DIwAR3jd_0WXGYd_42uhkAYxfOUAAw4ZigP2s9wDgAt0VqDS_GpnmP4MDv8Gho&h=AT1I8zJiVPTTCtSefYIfeHILsH9AxgNcmq4Qk2s8U1efYpNA_3TR2Tqdtb-sXPWsmQxSPqbw9C73HNHUhchdzsMGFP_a6xXjqGcaIuWTnyr8ByYMorKYC2ZAP0NR3W3Br3oeuyYxjMVm3w"><span class="fa fa-instagram"></span></a></li>
           </ul>
         </div>
       </div>
-      <div class="col-md">
+      
+     <!--   
+     <div class="col-md">
         <div class="ftco-footer-widget mb-4 ml-md-5">
           <h2 class="ftco-heading-2">Explore</h2>
           <ul class="list-unstyled">
@@ -368,7 +372,7 @@
             <li><a href="#" class="py-2 d-block">Call Us</a></li>
           </ul>
         </div>
-      </div>
+      </div>-->
       <div class="col-md">
        <div class="ftco-footer-widget mb-4">
         <h2 class="ftco-heading-2">Legal</h2>
@@ -376,20 +380,19 @@
           <li><a href="#" class="py-2 d-block">Join Us</a></li>
           <li><a href="#" class="py-2 d-block">Blog</a></li>
           <li><a href="#" class="py-2 d-block">Privacy &amp; Policy</a></li>
-          <li><a href="#" class="py-2 d-block">Terms &amp; Conditions</a></li>
-          <li><a href="#" class="py-2 d-block">Careers</a></li>
-          <li><a href="#" class="py-2 d-block">Contact</a></li>
+          <li><a href="#" class="py-2 d-block">Entrar em contacto</a></li>
+          <li><a href="#" class="py-2 d-block">Registar</a></li> 
         </ul>
       </div>
     </div>
     <div class="col-md">
       <div class="ftco-footer-widget mb-4">
-       <h2 class="ftco-heading-2">Have a Questions?</h2>
+       <h2 class="ftco-heading-2">Contacte-nos</h2>
        <div class="block-23 mb-3">
          <ul>
-           <li><span class="icon fa fa-map marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-           <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-           <li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">info@yourdomain.com</span></a></li>
+           <li><span class="icon fa fa-map marker"></span><span class="text">Rua Elias Garcia, Nº 23, 4490-650 Povoa de Varzim</span></li>
+           <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+(351) 936669133</span></a></li>
+           <li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">geral@softdiet.pt</span></a></li>
          </ul>
        </div>
      </div>
@@ -399,7 +402,7 @@
   <div class="col-md-12 text-center">
 
     <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+       &copy; <script>document.write(new Date().getFullYear());</script> Softdiet 
       <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
     </div>
   </div>

@@ -43,7 +43,7 @@
 	</script>
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container" style="display:flex; align-items:center; justify-content:center">
-			<a class="navbar-brand" href="#"><p style="margin:0; margin-left:450%">IT<span style="text-align:center">solution</span></p></a>
+			<a class="navbar-brand" href="#"><p style="margin:0; margin-left:550%">Soft<span style="text-align:center">diet</span></p></a>
 			
 
 			<div class="collapse navbar-collapse" id="ftco-nav">
@@ -102,6 +102,7 @@
 						</ul>
 					</div>
 				</div>
+                            <!--
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-4 ml-md-5">
 						<h2 class="ftco-heading-2">Explore</h2>
@@ -114,7 +115,7 @@
 							<li><a href="#" class="py-2 d-block">Call Us</a></li>
 						</ul>
 					</div>
-				</div>
+				</div>-->
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-4">
 						<h2 class="ftco-heading-2">Legal</h2>
