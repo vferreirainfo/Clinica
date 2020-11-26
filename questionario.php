@@ -56,7 +56,8 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
             <div class="container">
-                <img src="https://softdiet.pt/img/logo.jpg" width="130" height="80">
+                <!--<img src="https://softdiet.pt/img/logo.jpg" width="130" height="80"> <!--??? Isto pode ser melhorado --->
+                <a class="navbar-brand" href="index.html"><img src="https://scontent.fopo2-2.fna.fbcdn.net/v/t1.0-9/122958446_640492499969556_8572259873588969268_o.png?_nc_cat=105&ccb=2&_nc_sid=09cbfe&_nc_ohc=tRaSdZ7jf7QAX94tIvJ&_nc_oc=AQn8LNUqF0VckvHhOltMS2omxehE0e6tDrOlOAYvutmuXKuO16grgJLf5uKI1OpTC49SmgP0EnIovp7Vm0Pb6Ki8&_nc_ht=scontent.fopo2-2.fna&oh=0ee814649f6e9e188e1690556fd878a1&oe=5FE5FC3C" style="width:50px;height:50px">&nbsp;<p style="display: inline-block; margin-left:10px">Soft<span>diet</span></p></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="oi oi-menu"></span> Menu
                 </button>
@@ -144,14 +145,15 @@
                             <h2 class="ftco-heading-2">Explore</h2>
                             <ul class="list-unstyled">
                                 <li><a href="#" class="py-2 d-block">Sobre</a></li>
-                                <li><a href="#" class="py-2 d-block">Contacto</a></li>
-                                <li><a href="#" class="py-2 d-block">Funcionalidades</a></li>
-                                <li><a href="#" class="py-2 d-block">Planos & amp; Preços</a></li>
+                                <li><a href="https://www.softdiet.pt/registar.php" class="py-2 d-block">Registo</a></li>
+                                <li><a href="funcionalidades.php" class="py-2 d-block">Funcionalidades</a></li>
+                                <li><a href="https://www.softdiet.pt/#pricing" class="py-2 d-block">Planos &amp; Preços</a></li>
                                 <li><a href="#" class="py-2 d-block">Politica de Reembolso</a></li>
-                                <li><a href="#" class="py-2 d-block">Contacte-nos</a></li>
+                                <li><a href="https://www.softdiet.pt/#contact" class="py-2 d-block">Contacte-nos</a></li>
                             </ul>
                         </div>
                     </div>
+                    <!--
                     <div class="col-md">
                         <div class="ftco-footer-widget mb-4">
                             <h2 class="ftco-heading-2">Legal</h2>
@@ -164,14 +166,14 @@
                                 <li><a href="#" class="py-2 d-block">Contacto</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-md">
                         <div class="ftco-footer-widget mb-4">
                             <h2 class="ftco-heading-2">Endereço</h2>
                             <div class="block-23 mb-3">
                                 <ul>
-                                    <li><span class="icon fa fa-map marker"></span><span class="text">Rua Elias Garcia nº 23 4490-650 Póvoa de Varzim Portugal/span></li>
-                                    <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">(+351)936669133</span></a></li>
+                                    <li><span class="icon fa fa-map marker"></span><span class="text">Rua Elias Garcia nº 23 4490-650 Póvoa de Varzim Portugal</span></li>
+                                    <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">(+351) 936669133</span></a></li>
                                     <li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">geral@softdiet.pt</span></a></li>
                                 </ul>
                             </div>
