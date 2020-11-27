@@ -32,6 +32,9 @@
 
         <link rel="stylesheet" href="css/flaticon.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/meuestilo.css">
+        
+        
     </head>
     <body>
         <div class="wrap">
@@ -57,7 +60,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
             <div class="container">
                 <!--<img src="https://softdiet.pt/img/logo.jpg" width="130" height="80"> <!--??? Isto pode ser melhorado --->
-                <a class="navbar-brand" href="index.html"><img src="https://scontent.fopo2-2.fna.fbcdn.net/v/t1.0-9/122958446_640492499969556_8572259873588969268_o.png?_nc_cat=105&ccb=2&_nc_sid=09cbfe&_nc_ohc=tRaSdZ7jf7QAX94tIvJ&_nc_oc=AQn8LNUqF0VckvHhOltMS2omxehE0e6tDrOlOAYvutmuXKuO16grgJLf5uKI1OpTC49SmgP0EnIovp7Vm0Pb6Ki8&_nc_ht=scontent.fopo2-2.fna&oh=0ee814649f6e9e188e1690556fd878a1&oe=5FE5FC3C" style="width:50px;height:50px">&nbsp;<p style="display: inline-block; margin-left:10px">Soft<span>diet</span></p></a>
+                <a class="navbar-brand" href="index.html"><img src="https://scontent.fopo2-2.fna.fbcdn.net/v/t1.0-9/122958446_640492499969556_8572259873588969268_o.png?_nc_cat=105&ccb=2&_nc_sid=09cbfe&_nc_ohc=tRaSdZ7jf7QAX94tIvJ&_nc_oc=AQn8LNUqF0VckvHhOltMS2omxehE0e6tDrOlOAYvutmuXKuO16grgJLf5uKI1OpTC49SmgP0EnIovp7Vm0Pb6Ki8&_nc_ht=scontent.fopo2-2.fna&oh=0ee814649f6e9e188e1690556fd878a1&oe=5FE5FC3C" id="tamanhoicon-menu" >&nbsp;<p id="span-title-softdiet">Soft<span>diet</span></p></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="oi oi-menu"></span> Menu
                 </button>
@@ -130,13 +133,13 @@
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-md">
-                        <div class="ftco-footer-widget mb-4">
+                        <div class="ftco-footer-widget mb-4" id="div-relative">
                              <h2 class="ftco-footer-logo">Siga-nos nas redes sociais</h2>
                              <p>Fique a par de todo o nosso trabalho entrando numa das redes sociais abaixo. Visite já a nossa página, e fique a par das ultimas novidades</p>
                              <br>
-                            <ul class="ftco-footer-social list-unstyled mt-2">
-                                <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
-                                <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+                            <ul class="ftco-footer-social list-unstyled mt-2" id="iconsrs-center">
+                                <li class="ftco-animate"><a href="https://www.facebook.com/Softdiet-118708375481307"><span class="fa fa-facebook"></span></a></li>
+                                <li class="ftco-animate"><a href="https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fsoftdiet.software%3Ffbclid%3DIwAR3jd_0WXGYd_42uhkAYxfOUAAw4ZigP2s9wDgAt0VqDS_GpnmP4MDv8Gho&h=AT1I8zJiVPTTCtSefYIfeHILsH9AxgNcmq4Qk2s8U1efYpNA_3TR2Tqdtb-sXPWsmQxSPqbw9C73HNHUhchdzsMGFP_a6xXjqGcaIuWTnyr8ByYMorKYC2ZAP0NR3W3Br3oeuyYxjMVm3w"><span class="fa fa-instagram"></span></a></li>
                             </ul>
                         </div>
                     </div>
