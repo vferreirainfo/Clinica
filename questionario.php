@@ -142,7 +142,7 @@
                     </div>
                     <div class="col-md">
                         <div class="ftco-footer-widget mb-4 ml-md-5">
-                            <h2 class="ftco-heading-2">Explore</h2>
+                            <h2 class="ftco-heading-2">Sub-menu</h2>
                             <ul class="list-unstyled">
                                 <li><a href="#" class="py-2 d-block">Sobre</a></li>
                                 <li><a href="https://www.softdiet.pt/registar.php" class="py-2 d-block">Registo</a></li>

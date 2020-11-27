@@ -1,0 +1,24 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 nov. 2020, 22:41:31
+    Author     : vitor
+*/
+
+
+
+#iconsrs-center
+{
+    position:absolute; 
+    down:50%; 
+    left: 30%; 
+    margin:-25px 0 0 -25px;
+}
+
+#div-relative 
+{
+    position: relative;
+}

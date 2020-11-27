@@ -14,10 +14,11 @@
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/magnific-popup.css">
-
+ 
   
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/meuestilo.css">
 </head>
 <body>
   <div class="wrap">
@@ -347,11 +348,11 @@
   <div class="container">
     <div class="row mb-5">
       <div class="col-md">
-        <div class="ftco-footer-widget mb-4" style="position:relative">
+        <div class="ftco-footer-widget mb-4" id="div-relative">
           <h2 class="ftco-footer-logo">Siga-nos nas redes sociais</h2>
           <p>Fique a par de todo o nosso trabalho entrando numa das redes sociais abaixo. Visite já a nossa página, e fique a par das ultimas novidades</p>
           <br>
-          <ul class="ftco-footer-social list-unstyled mt-2" style="position:absolute; down:50%; left: 30%; margin:-25px 0 0 -25px;">
+          <ul class="ftco-footer-social list-unstyled mt-2" id="iconsrs-center">
             
             <li class="ftco-animate"><a href="https://www.facebook.com/Softdiet-118708375481307"><span class="fa fa-facebook"></span></a></li>
             <li class="ftco-animate"><a href="https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fsoftdiet.software%3Ffbclid%3DIwAR3jd_0WXGYd_42uhkAYxfOUAAw4ZigP2s9wDgAt0VqDS_GpnmP4MDv8Gho&h=AT1I8zJiVPTTCtSefYIfeHILsH9AxgNcmq4Qk2s8U1efYpNA_3TR2Tqdtb-sXPWsmQxSPqbw9C73HNHUhchdzsMGFP_a6xXjqGcaIuWTnyr8ByYMorKYC2ZAP0NR3W3Br3oeuyYxjMVm3w"><span class="fa fa-instagram"></span></a></li>
@@ -375,14 +376,14 @@
       </div>-->
       <div class="col-md">
        <div class="ftco-footer-widget mb-4">
-        <h2 class="ftco-heading-2">Legal</h2>
+        <h2 class="ftco-heading-2">Submenu</h2>
         <ul class="list-unstyled">
-          <li><a href="#" class="py-2 d-block">Join Us</a></li>
-          <li><a href="#" class="py-2 d-block">Blog</a></li>
-          <li><a href="#" class="py-2 d-block">Privacy &amp; Policy</a></li>
-          <li><a href="#" class="py-2 d-block">Entrar em contacto</a></li>
-          <li><a href="#" class="py-2 d-block">Registar</a></li> 
-        </ul>
+              <li><a href="#" class="py-2 d-block">Sobre</a></li>
+              <li><a href="https://www.softdiet.pt/registar.php" class="py-2 d-block">Registo</a></li>
+              <li><a href="funcionalidades.php" class="py-2 d-block">Funcionalidades</a></li>
+              <li><a href="https://www.softdiet.pt/#pricing" class="py-2 d-block">Planos &amp; Preços</a></li>
+              <li><a href="#" class="py-2 d-block">Politica de Reembolso</a></li>
+              <li><a href="https://www.softdiet.pt/#contact" class="py-2 d-block">Contacte-nos</a></li>
       </div>
     </div>
     <div class="col-md">
