@@ -22,3 +22,8 @@ and open the template in the editor.
 {
     position: relative;
 }
+
+#div-absolute
+{
+    position:absolute;
+}
