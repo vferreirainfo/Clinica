@@ -106,11 +106,11 @@
                         <br>
                         <form onsubmit="validate()">
                             <input type="checkbox" id="termos">
-                            <label for="vehicle1"> Eu aceito os termos de utilização</label><br>
+                            <label for="dieta1"> Eu aceito os termos de utilização</label><br>
                             <input type="checkbox" id="pprivacidade">
-                            <label for="vehicle2"> Eu tenho conhecimento e aceito a politica de privacidade</label><br>
+                            <label for="dieta2"> Eu tenho conhecimento e aceito a politica de privacidade</label><br>
                             <input type="checkbox" id="RGPD">
-                            <label for="vehicle2"> Eu autorizo o tratamento de dados pessoais para fins estatisticos e cientificos</label><br>
+                            <label for="dieta2"> Eu autorizo o tratamento de dados pessoais para fins estatisticos e cientificos</label><br>
 
                             <input type="submit" value="Avançar" style="width: 180px; height: 40px; background: #64FF33; padding: 10px;
                                    text-align: center; border-radius:5px; color: white;
