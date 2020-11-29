@@ -73,7 +73,7 @@
                         <li class="nav-item"><a href="cases.html" class="nav-link">Registar</a></li>
                         <li class="nav-item active"><a href="blog.html" class="nav-link">Blog</a></li>
                         <li class="nav-item"><a href="contact.html" class="nav-link">Contacte-nos</a></li>
-                        <li class="nav-item cta"><a href="#" class="nav-link">Gratis Consulte-nos</a></li>
+                        <li class="nav-item cta"><a href="#" class="nav-link">Fale connosco</a></li>
 
                         
                     </ul>

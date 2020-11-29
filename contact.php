@@ -1,4 +1,38 @@
 <!DOCTYPE html>
+<?php
+    
+echo '<pre>';
+    print_r($_POST);
+echo '</pre>';
+    $messageSent=true;
+    if(isset($POST["email"]) && $_POST["email"] != '' )
+    {
+        if(filter_var($_POST["email"],FILTER_VALIDATE_EMAIL))
+        {
+            $username = $_POST["name"];
+            $email = $_POST["email"];
+            $subject = $_POST["subject"];
+            $message = $_POST["message"];
+    
+            $to = "vferreirainfo@gmail.com";
+            $body = ""; //initial value of email body
+    
+            $body .="From: ".$username."\r\n";
+            $body .="Email: ".$email."\r\n";
+            $body .="Message ".$message."\r\n";
+    
+    
+            mail($to,$subject,$body);
+            $messageSent=true;
+        }
+        else {
+            $messageSent=false;
+        }
+        
+    }
+?>
+
+
 <html lang="en">
 <head>
 	<title>ITSolution - Free Bootstrap 4 Template by Colorlib</title>
@@ -52,12 +86,12 @@
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-					<li class="nav-item"><a href="cases.html" class="nav-link">Case Study</a></li>
-					<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-					<li class="nav-item active"><a href="contact.html" class="nav-link">Contact us</a></li>
-					<li class="nav-item cta"><a href="#" class="nav-link">Free Consultation</a></li>
+                                        <li class="nav-item"><a href="about.php" class="nav-link">Sobre</a></li>
+                                        <li class="nav-item"><a href="services.html" class="nav-link">Preços</a></li>
+                                        <li class="nav-item"><a href="cases.html" class="nav-link">Registar</a></li>
+                                        <li class="nav-item active"><a href="blog.html" class="nav-link">Blog</a></li>
+                                        <li class="nav-item"><a href="contact.html" class="nav-link">Contacte-nos</a></li>
+                                        <li class="nav-item cta"><a href="#" class="nav-link">Fale connosco</a></li>
 
 				</ul>
 			</div>
@@ -129,30 +163,30 @@
 							<div class="col-md-7">
 								<div class="contact-wrap w-100 p-md-5 p-4">
 									<h3 class="mb-4">Contacte-nos</h3>
-									<form method="POST" id="contactForm" name="contactForm" class="contactForm">
+									<form action="contact.php" method="POST" id="contactForm" name="contactForm" class="contactForm">
 										<div class="row">
 											<div class="col-md-6">
 												<div class="form-group">
 													<label class="label" for="name">Nome completo</label>
-													<input type="text" class="form-control" name="name" id="name" placeholder="Nome completo">
+                                                                                                        <input type="text" class="form-control" name="name" id="name" placeholder="Nome completo" required>
 												</div>
 											</div>
 											<div class="col-md-6"> 
 												<div class="form-group">
 													<label class="label" for="email">Email</label>
-													<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                                                                                                        <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
 												</div>
 											</div>
 											<div class="col-md-12">
 												<div class="form-group">
 													<label class="label" for="subject">Assunto</label>
-													<input type="text" class="form-control" name="subject" id="subject" placeholder="Indique assunto">
+                                                                                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Indique assunto" required>
 												</div>
 											</div>
 											<div class="col-md-12">
 												<div class="form-group">
 													<label class="label" for="#">Mensagem</label>
-													<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Escreva mensagem"></textarea>
+                                                                                                        <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Escreva mensagem" required></textarea>
 												</div>
 											</div>
 											<div class="col-md-12">
@@ -166,7 +200,7 @@
 								</div>
 							</div>
 							<div class="col-md-5 order-md-first d-flex align-items-stretch">
-								<div id="map" class="map"></div>
+								<div id="map"></div>
 							</div>
 						</div>
 					</div>
@@ -189,19 +223,20 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4 ml-md-5">
-						<h2 class="ftco-heading-2">Explore</h2>
-						<ul class="list-unstyled">
-							<li><a href="#" class="py-2 d-block">About</a></li>
-							<li><a href="#" class="py-2 d-block">Contact</a></li>
-							<li><a href="#" class="py-2 d-block">What We Do</a></li>
-							<li><a href="#" class="py-2 d-block">Plans &amp; Pricing</a></li>
-							<li><a href="#" class="py-2 d-block">Refund Policy</a></li>
-							<li><a href="#" class="py-2 d-block">Call Us</a></li>
-						</ul>
-					</div>
-				</div>
+				     <div class="col-md">
+                        <div class="ftco-footer-widget mb-4 ml-md-5">
+                            <h2 class="ftco-heading-2">Sub-menu</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="py-2 d-block">Sobre</a></li>
+                                <li><a href="https://www.softdiet.pt/registar.php" class="py-2 d-block">Registo</a></li>
+                                <li><a href="funcionalidades.php" class="py-2 d-block">Funcionalidades</a></li>
+                                <li><a href="https://www.softdiet.pt/#pricing" class="py-2 d-block">Planos &amp; Preços</a></li>
+                                <li><a href="#" class="py-2 d-block">Politica de Reembolso</a></li>
+                                <li><a href="https://www.softdiet.pt/#contact" class="py-2 d-block">Contacte-nos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                            <!--
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-4">
 						<h2 class="ftco-heading-2">Legal</h2>
@@ -215,6 +250,7 @@
 						</ul>
 					</div>
 				</div>
+                            -->
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-4">
 						<h2 class="ftco-heading-2">Have a Questions?</h2>
@@ -256,9 +292,34 @@
 		<script src="js/jquery.magnific-popup.min.js"></script>
 		<script src="js/jquery.animateNumber.min.js"></script>
 		<script src="js/scrollax.min.js"></script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-		<script src="js/google-map.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3H95gK8mxUsgwFjLLPJyTUGOOYHUvyCQ&callback=initMap&libraries=&v=weekly&region=PT"
+                defer></script>
+                <script src="js/google-map.js"></script>
 		<script src="js/main.js"></script>
 		
+                
+                <script>
+                    function initMap() {
+                        const map = new google.maps.Map(document.getElementById("map"), {
+                            zoom: 8,
+                        });
+                        const geocoder = new google.maps.Geocoder();
+                        geocoder.geocode({ address: "Rua Elias Garcia 21, Vila do Conde" }, (results, status) => {
+                        if (status === "OK") {
+                            map.setCenter(results[0].geometry.location);
+                            new google.maps.Marker({
+                                map,
+                                position: results[0].geometry.location,
+                        });
+                        } else {
+                            window.alert("Geocode was not successful for the following reason: " + status
+                        );
+                        }
+                    });
+                }
+                
+                </script>
+                <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+                
 	</body>
 	</html>
