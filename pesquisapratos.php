@@ -127,17 +127,16 @@
 						</div>
 						<div class="row no-gutters">
 							<div class="col-md-12">
-								<div class="contact-wrap w-100 p-md-5 p-4" id="divformulario-pprato">
+								<div class="contact-wrap w-100 p-md-5 p-4">
 									<h3 class="mb-4 text-center" id="titulosecpag_pprato">Pesquisar prato</h3>
 										<div class="row">
 											
 										<iframe src="https://www.fatsecret.pt/calorias-nutri%C3%A7%C3%A3o/search?q=" 
-                                                                                scrolling="no" frameborder="no" width="100%" height="1200px" scrolling="yes"></iframe>
+                                                                                frameborder="no" width="100%" height="1200px" scrolling="yes"></iframe>
 										
                                                                                 
 											
-										</div>
-								</form>
+                                                                                </div>
 								</div>
 							</div>
 							
