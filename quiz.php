@@ -166,7 +166,7 @@ if(isset($_POST['signaturesubmit'])){
 
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
  <div class="container">
-   <img src="https://softdiet.pt/img/logo.jpg" width="130" height="80">
+   <!--<img src="https://softdiet.pt/img/logo.jpg" width="130" height="80"> -->
    <a class="navbar-brand" href="index.html"><img src="https://scontent.fopo2-2.fna.fbcdn.net/v/t1.0-9/122958446_640492499969556_8572259873588969268_o.png?_nc_cat=105&ccb=2&_nc_sid=09cbfe&_nc_ohc=tRaSdZ7jf7QAX94tIvJ&_nc_oc=AQn8LNUqF0VckvHhOltMS2omxehE0e6tDrOlOAYvutmuXKuO16grgJLf5uKI1OpTC49SmgP0EnIovp7Vm0Pb6Ki8&_nc_ht=scontent.fopo2-2.fna&oh=0ee814649f6e9e188e1690556fd878a1&oe=5FE5FC3C" style="width:50px; height:50px">&nbsp;<p id="span-title-softdiet">Soft<span>diet</span></p></a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
      <span class="oi oi-menu"></span> Menu
