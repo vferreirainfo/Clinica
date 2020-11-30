@@ -78,9 +78,9 @@ echo '</pre>';
 
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
-			<a class="navbar-brand" href="index.html">IT<span>solution</span></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span> Menu
+			    <a class="navbar-brand" href="index.html"><img src="https://scontent.fopo2-2.fna.fbcdn.net/v/t1.0-9/122958446_640492499969556_8572259873588969268_o.png?_nc_cat=105&ccb=2&_nc_sid=09cbfe&_nc_ohc=tRaSdZ7jf7QAX94tIvJ&_nc_oc=AQn8LNUqF0VckvHhOltMS2omxehE0e6tDrOlOAYvutmuXKuO16grgJLf5uKI1OpTC49SmgP0EnIovp7Vm0Pb6Ki8&_nc_ht=scontent.fopo2-2.fna&oh=0ee814649f6e9e188e1690556fd878a1&oe=5FE5FC3C" id="tamanhoicon-menu" >&nbsp;<p id="span-title-softdiet">Soft<span>diet</span></p></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="oi oi-menu"></span> Menu
 			</button>
 
 			<div class="collapse navbar-collapse" id="ftco-nav">
@@ -124,27 +124,27 @@ echo '</pre>';
 										<span class="fa fa-map-marker"></span>
 									</div>
 									<div class="text">
-										<p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+										<p><span>Endereço:</span> Rua Elias Garcia, Nº23, 4490-650 Povoa de Varzim</p>
 									</div>
 								</div>
 							</div>
 							<div class="col-md-3">
 								<div class="dbox w-100 text-center">
 									<div class="icon d-flex align-items-center justify-content-center">
-										<span class="fa fa-phone"></span>
+										<span class="fa fa-mobile"></span>
 									</div>
 									<div class="text">
-										<p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+										<p><span>Phone:</span> <a href="tel://351936669133">+(351) 936669133</a></p>
 									</div>
 								</div>
 							</div>
 							<div class="col-md-3">
 								<div class="dbox w-100 text-center">
 									<div class="icon d-flex align-items-center justify-content-center">
-										<span class="fa fa-paper-plane"></span>
+										<span class="fa fa-at"></span>
 									</div>
 									<div class="text">
-										<p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+										<p><span>Email:</span> <a href="mailto:info@yoursite.com">geral@softdiet.pt</a></p>
 									</div>
 								</div>
 							</div>
