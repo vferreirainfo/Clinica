@@ -60,7 +60,7 @@ echo '</pre>';
 		<div class="container">
 			<div class="row justify-content-between">
 				<div class="col-12 col-md d-flex align-items-center">
-					<p class="mb-0 phone"><span class="mailus">Phone no:</span> <a href="#">+00 1234 567</a> or <span class="mailus">email us:</span> <a href="#">emailsample@email.com</a></p>
+					<p class="mb-0 phone"><span class="mailus">Contacto:</span> <a href="#">+351 936669133</a> or <span class="mailus">email:</span> <a href="#">softdiet@geral.pt</a></p>
 				</div>
 				<div class="col-12 col-md d-flex justify-content-md-end">
 					<div class="social-media">
@@ -104,7 +104,7 @@ echo '</pre>';
 		<div class="container">
 			<div class="row no-gutters slider-text align-items-end justify-content-center">
 				<div class="col-md-9 ftco-animate pb-5 text-center">
-					<h1 class="mb-3 bread">Contact us</h1>
+					<h1 class="mb-3 bread">Contacto</h1>
 					<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>Contact us <i class="fa fa-chevron-right"></i></span></p>
 				</div>
 			</div>
@@ -253,12 +253,12 @@ echo '</pre>';
                             -->
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Have a Questions?</h2>
+						<h2 class="ftco-heading-2">Endereço</h2>
 						<div class="block-23 mb-3">
 							<ul>
-								<li><span class="icon fa fa-map marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-								<li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-								<li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">info@yourdomain.com</span></a></li>
+								<li><span class="icon fa fa-map marker"></span><span class="text">Rua Elias Garcia, Nº 23 4490-650 Póvoa de Varzim Portugal</span></li>
+								<li><a href="#"><span class="icon fa fa-phone"></span><span class="text">(+351) 936669133</span></a></li>
+								<li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">softdiet@geral.pt</span></a></li>
 							</ul>
 						</div>
 					</div>
@@ -268,7 +268,7 @@ echo '</pre>';
 				<div class="col-md-12 text-center">
 
 					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> Softdiet
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 					</div>
 				</div>
