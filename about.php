@@ -52,12 +52,12 @@
    <div class="collapse navbar-collapse" id="ftco-nav">
      <ul class="navbar-nav ml-auto">
        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-       <li class="nav-item active"><a href="about.html" class="nav-link">About</a></li>
-       <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-       <li class="nav-item"><a href="cases.html" class="nav-link">Case Study</a></li>
+       <li class="nav-item active"><a href="about.html" class="nav-link">Sobre</a></li>
+       <li class="nav-item"><a href="services.html" class="nav-link">Preços</a></li>
+       <li class="nav-item"><a href="cases.html" class="nav-link">Registar</a></li>
        <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-       <li class="nav-item"><a href="contact.html" class="nav-link">Contact us</a></li>
-       <li class="nav-item cta"><a href="#" class="nav-link">Free Consultation</a></li>
+       <li class="nav-item"><a href="contact.html" class="nav-link">Contacte-nos</a></li>
+       <li class="nav-item cta"><a href="#" class="nav-link">Fale Connosco</a></li>
 
      </ul>
    </div>

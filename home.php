@@ -193,7 +193,7 @@
 						<div class="icon"><span class="flaticon-web-programming"></span></div>
 						<div class="media-body">
 							<h3 class="heading mb-3">Web Development</h3>
-							<p>	203 Fake St. Mountain View, San Francisco, California, USA</p>
+							<p>	Rua Elias Garcia, Nº 23 4490-650 Póvoa de Varzim Portugal</p>
 						</div>
 					</div>      
 				</div>
