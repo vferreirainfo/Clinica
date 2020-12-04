@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>ITSolution - Free Bootstrap 4 Template by Colorlib</title>
+	<title>SoftDiet</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	
@@ -26,7 +26,7 @@
 		<div class="container">
 			<div class="row justify-content-between">
 				<div class="col-12 col-md d-flex align-items-center">
-					<p class="mb-0 phone"><span class="mailus">Phone no:</span> <a href="#">+00 1234 567</a> or <span class="mailus">email us:</span> <a href="#">emailsample@email.com</a></p>
+					<p class="mb-0 phone"><span class="mailus">Contacto:</span> <a href="#">+351 936669133</a> or <span class="mailus">email:</span> <a href="#">softdiet.geral.pt</a></p>
 				</div>
 				<div class="col-12 col-md d-flex justify-content-md-end">
 					<div class="social-media">
@@ -44,7 +44,7 @@
 
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
-			<a class="navbar-brand" href="index.html">IT<span>solution</span></a>
+			<a class="navbar-brand" href="index.html">Soft<span>Diet</span></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
 			</button>
@@ -52,12 +52,12 @@
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-					<li class="nav-item"><a href="cases.html" class="nav-link">Case Study</a></li>
+					<li class="nav-item"><a href="about.html" class="nav-link">Sobre</a></li>
+					<li class="nav-item"><a href="services.html" class="nav-link">Preços</a></li>
+					<li class="nav-item"><a href="cases.html" class="nav-link">Planos Alimentares</a></li>
 					<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-					<li class="nav-item active"><a href="contact.html" class="nav-link">Contact us</a></li>
-					<li class="nav-item cta"><a href="#" class="nav-link">Free Consultation</a></li>
+					<li class="nav-item active"><a href="contact.html" class="nav-link">Contacte-nos</a></li>
+					<li class="nav-item cta"><a href="#" class="nav-link">Fale Connosco</a></li>
 
 				</ul>
 			</div>
@@ -152,8 +152,8 @@
 			<div class="row mb-5">
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-footer-logo">IT<span>solution</span></h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						<h2 class="ftco-footer-logo">SoftDiet<span>solution</span></h2>
+						<p>Fique a par de todo o nosso trabalho entrando numa das redes sociais abaixo. Visite já a nossa página, e fique a par das ultimas novidades</p>
 						<ul class="ftco-footer-social list-unstyled mt-2">
 							<li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
 							<li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>

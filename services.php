@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>ITSolution - Free Bootstrap 4 Template by Colorlib</title>
+  <title>SoftDiet</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
@@ -24,7 +24,7 @@
    <div class="container">
     <div class="row justify-content-between">
       <div class="col-12 col-md d-flex align-items-center">
-       <p class="mb-0 phone"><span class="mailus">Phone no:</span> <a href="#">+00 1234 567</a> or <span class="mailus">email us:</span> <a href="#">emailsample@email.com</a></p>
+       <p class="mb-0 phone"><span class="mailus">Contacto:</span> <a href="#">+351 936669133</a> or <span class="mailus">email:</span> <a href="#">softdiet@geral.pt</a></p>
      </div>
      <div class="col-12 col-md d-flex justify-content-md-end">
        <div class="social-media">
@@ -42,7 +42,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
  <div class="container">
-   <a class="navbar-brand" href="index.html">IT<span>solution</span></a>
+   <a class="navbar-brand" href="index.html">Soft<span>Diet</span></a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
      <span class="oi oi-menu"></span> Menu
    </button>
@@ -50,12 +50,12 @@
    <div class="collapse navbar-collapse" id="ftco-nav">
      <ul class="navbar-nav ml-auto">
        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-       <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-       <li class="nav-item active"><a href="services.html" class="nav-link">Services</a></li>
-       <li class="nav-item"><a href="cases.html" class="nav-link">Case Study</a></li>
+       <li class="nav-item"><a href="about.html" class="nav-link">Sobre</a></li>
+       <li class="nav-item active"><a href="services.html" class="nav-link">Preços</a></li>
+       <li class="nav-item"><a href="cases.html" class="nav-link">Registar</a></li>
        <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-       <li class="nav-item"><a href="contact.html" class="nav-link">Contact us</a></li>
-       <li class="nav-item cta"><a href="#" class="nav-link">Free Consultation</a></li>
+       <li class="nav-item"><a href="contact.html" class="nav-link">Contacte-nos</a></li>
+       <li class="nav-item cta"><a href="#" class="nav-link">Fale connosco</a></li>
 
      </ul>
    </div>
@@ -80,7 +80,7 @@
   <div class="container">
    <div class="row justify-content-center pb-5">
     <div class="col-md-6 heading-section text-center ftco-animate">
-      <h2 class="mb-4">Our Exclusive <span>IT Solution</span> Services</h2>
+      <h2 class="mb-4">Our Exclusive <span>SoftDiet</span> Services</h2>
     </div>
   </div>
   <div class="row d-flex no-gutters">
@@ -90,7 +90,7 @@
        <div class="icon"><span class="flaticon-web-programming"></span></div>
        <div class="media-body">
         <h3 class="heading mb-3">Web Development</h3>
-        <p>	203 Fake St. Mountain View, San Francisco, California, USA</p>
+        <p>	203 Fake St.Lucia, Porto, Portugal</p>
       </div>
     </div>      
   </div>
@@ -261,7 +261,7 @@
   <div class="card-header p-0" id="headingThree" role="tab">
     <h2 class="mb-0">
       <button href="#collapseThree" class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link" data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseThree">
-       <p class="mb-0">Can I help your IT Solution for business?</p>
+       <p class="mb-0">Can I help your SoftDiet for business?</p>
        <i class="fa" aria-hidden="true"></i>
      </button>
    </h2>
@@ -283,7 +283,7 @@
   <div class="card-header p-0" id="headingFour" role="tab">
     <h2 class="mb-0">
       <button href="#collapseFour" class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link" data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseFour">
-       <p class="mb-0">What are those requirements for ITSolutions?</p>
+       <p class="mb-0">What are those requirements for SoftDiet?</p>
        <i class="fa" aria-hidden="true"></i>
      </button>
    </h2>
@@ -305,8 +305,8 @@
     <div class="row mb-5">
       <div class="col-md">
         <div class="ftco-footer-widget mb-4">
-          <h2 class="ftco-footer-logo">IT<span>solution</span></h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          <h2 class="ftco-footer-logo">Soft<span>Diet</span></h2>
+          <p>Um sistema desenvolvido para auxiliar a gestão de médicos e pacientes.</p>
           <ul class="ftco-footer-social list-unstyled mt-2">
             <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
             <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
@@ -318,12 +318,12 @@
         <div class="ftco-footer-widget mb-4 ml-md-5">
           <h2 class="ftco-heading-2">Explore</h2>
           <ul class="list-unstyled">
-            <li><a href="#" class="py-2 d-block">About</a></li>
-            <li><a href="#" class="py-2 d-block">Contact</a></li>
-            <li><a href="#" class="py-2 d-block">What We Do</a></li>
-            <li><a href="#" class="py-2 d-block">Plans &amp; Pricing</a></li>
-            <li><a href="#" class="py-2 d-block">Refund Policy</a></li>
-            <li><a href="#" class="py-2 d-block">Call Us</a></li>
+            <li><a href="#" class="py-2 d-block">Sobre</a></li>
+            <li><a href="#" class="py-2 d-block">Registo</a></li>
+            <li><a href="#" class="py-2 d-block">Funcionalidades</a></li>
+            <li><a href="#" class="py-2 d-block">Planos &amp; Preços</a></li>
+            <li><a href="#" class="py-2 d-block">Politica de Reeembolso</a></li>
+            <li><a href="#" class="py-2 d-block">Contacte-nos</a></li>
           </ul>
         </div>
       </div>
@@ -331,23 +331,23 @@
        <div class="ftco-footer-widget mb-4">
         <h2 class="ftco-heading-2">Legal</h2>
         <ul class="list-unstyled">
-          <li><a href="#" class="py-2 d-block">Join Us</a></li>
+          <li><a href="#" class="py-2 d-block">Junte-se a nós</a></li>
           <li><a href="#" class="py-2 d-block">Blog</a></li>
-          <li><a href="#" class="py-2 d-block">Privacy &amp; Policy</a></li>
-          <li><a href="#" class="py-2 d-block">Terms &amp; Conditions</a></li>
-          <li><a href="#" class="py-2 d-block">Careers</a></li>
-          <li><a href="#" class="py-2 d-block">Contact</a></li>
+          <li><a href="#" class="py-2 d-block">Politica &amp; Privacidade</a></li>
+          <li><a href="#" class="py-2 d-block">Termos &amp; Condições</a></li>
+          <li><a href="#" class="py-2 d-block">Planos Alimentares</a></li>
+          <li><a href="#" class="py-2 d-block">Contacto</a></li>
         </ul>
       </div>
     </div>
     <div class="col-md">
       <div class="ftco-footer-widget mb-4">
-       <h2 class="ftco-heading-2">Have a Questions?</h2>
+       <h2 class="ftco-heading-2">Endereço</h2>
        <div class="block-23 mb-3">
          <ul>
-           <li><span class="icon fa fa-map marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-           <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-           <li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">info@yourdomain.com</span></a></li>
+           <li><span class="icon fa fa-map marker"></span><span class="text">Rua Elias Garcia, Nº 23 4490-650 Póvoa de Varzim Portugal</span></li>
+           <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">(+351) 936669133</span></a></li>
+           <li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">softdiet@geral.pt</span></a></li>
          </ul>
        </div>
      </div>
@@ -357,7 +357,7 @@
   <div class="col-md-12 text-center">
 
     <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+      Copyright &copy;<script>document.write(new Date().getFullYear());</script> SoftDiet
       <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
     </div>
   </div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>ITSolution - Free Bootstrap 4 Template by Colorlib</title>
+	<title>SoftDiet</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	
@@ -24,7 +24,7 @@
 
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
-			<a class="navbar-brand" href="index.php">IT<span>solution</span></a>
+			<a class="navbar-brand" href="index.php">Soft<span>Diet</span></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
 			</button>
@@ -136,8 +136,8 @@
 				<div class="col-md-6 p-3 pl-md-5 py-5 bg-primary">
 					<div class="row justify-content-start pb-3">
 						<div class="col-md-12 heading-section heading-section-white ftco-animate">
-							<h2 class="mb-4">Consult us here in <span>ITSolution</span></h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+							<h2 class="mb-4"> <span>SoftDiet</span></h2>
+							<p>Por forma a proteger a sua informação, nós atualizamos as condições de utilização do sistema e a politica de protecção de dados</p>
 						</div>
 					</div>
 					<div class="row">
@@ -364,7 +364,7 @@
 							<div class="card-header p-0" id="headingThree" role="tab">
 								<h2 class="mb-0">
 									<button href="#collapseThree" class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link" data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseThree">
-										<p class="mb-0">Can I help your IT Solution for business?</p>
+										<p class="mb-0">Can I help your SoftDiet for business?</p>
 										<i class="fa" aria-hidden="true"></i>
 									</button>
 								</h2>
@@ -600,7 +600,7 @@
 			<div class="row mb-5">
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-footer-logo">IT<span>solution</span></h2>
+						<h2 class="ftco-footer-logo">Soft<span>Diet</span></h2>
 						<p>Um sistema desenvolvido para auxiliar a gestão de médicos e pacientes </p>
 						<ul class="ftco-footer-social list-unstyled mt-2">
 							<li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>

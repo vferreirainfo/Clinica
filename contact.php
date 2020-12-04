@@ -14,7 +14,7 @@ echo '</pre>';
             $subject = $_POST["subject"];
             $message = $_POST["message"];
     
-            $to = "vferreirainfo@gmail.com";
+            $to = "info@gmail.com";
             $body = ""; //initial value of email body
     
             $body .="From: ".$username."\r\n";
@@ -35,7 +35,7 @@ echo '</pre>';
 
 <html lang="en">
 <head>
-	<title>ITSolution - Free Bootstrap 4 Template by Colorlib</title>
+	<title>SoftDiet</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	
@@ -214,8 +214,8 @@ echo '</pre>';
 			<div class="row mb-5">
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-footer-logo">IT<span>solution</span></h2>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						<h2 class="ftco-footer-logo">Soft<span>Diet</span></h2>
+						<p>Fique a par de todo o nosso trabalho entrando numa das redes sociais abaixo. Visite já a nossa página, e fique a par das ultimas novidades</p>
 						<ul class="ftco-footer-social list-unstyled mt-2">
 							<li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
 							<li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
@@ -241,12 +241,12 @@ echo '</pre>';
 					<div class="ftco-footer-widget mb-4">
 						<h2 class="ftco-heading-2">Legal</h2>
 						<ul class="list-unstyled">
-							<li><a href="#" class="py-2 d-block">Join Us</a></li>
+							<li><a href="#" class="py-2 d-block">Junte-se a nós</a></li>
 							<li><a href="#" class="py-2 d-block">Blog</a></li>
-							<li><a href="#" class="py-2 d-block">Privacy &amp; Policy</a></li>
-							<li><a href="#" class="py-2 d-block">Terms &amp; Conditions</a></li>
-							<li><a href="#" class="py-2 d-block">Careers</a></li>
-							<li><a href="#" class="py-2 d-block">Contact</a></li>
+							<li><a href="#" class="py-2 d-block">Politica&amp; Privacidade</a></li>
+							<li><a href="#" class="py-2 d-block">Termos &amp; Condições</a></li>
+							<li><a href="#" class="py-2 d-block">Planos alimentares</a></li>
+							<li><a href="#" class="py-2 d-block">Contacte-nos</a></li>
 						</ul>
 					</div>
 				</div>
