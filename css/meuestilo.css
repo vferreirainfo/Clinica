@@ -32,12 +32,12 @@ and open the template in the editor.
 }
 
 
+
 #span-title-softdiet
 {
     display: inline-block; 
     margin-left:5px;
 }
-
 
 #titulosecpag_pprato
 {
@@ -54,6 +54,11 @@ and open the template in the editor.
   height: 100%;
 }
 
+
+#title
+{
+    
+}
 /*
 html,
 body {
