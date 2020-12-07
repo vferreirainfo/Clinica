@@ -90,7 +90,7 @@
 										<span class="fa fa-map-marker"></span>
 									</div>
 									<div class="text">
-										<p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+										<p><span>Morada:</span>Rua Elias Garcia, Nº 23, 4490-650 Povoa de Varzim</p>
 									</div>
 								</div>
 							</div>
@@ -100,7 +100,7 @@
 										<span class="fa fa-phone"></span>
 									</div>
 									<div class="text">
-										<p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+										<p><span>Telemóvel:</span> <a href="tel://936669133">+(351) 936669133</a></p>
 									</div>
 								</div>
 							</div>
@@ -110,7 +110,7 @@
 										<span class="fa fa-paper-plane"></span>
 									</div>
 									<div class="text">
-										<p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+										<p><span>Email:</span> <a href="softdiet@geral.pt">softdiet@geral.pt</a></p>
 									</div>
 								</div>
 							</div>
@@ -152,7 +152,7 @@
 			<div class="row mb-5">
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-footer-logo">SoftDiet<span>solution</span></h2>
+						<h2 class="ftco-footer-logo">Soft<span>Diet</span></h2>
 						<p>Fique a par de todo o nosso trabalho entrando numa das redes sociais abaixo. Visite já a nossa página, e fique a par das ultimas novidades</p>
 						<ul class="ftco-footer-social list-unstyled mt-2">
 							<li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>

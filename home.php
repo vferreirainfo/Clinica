@@ -93,7 +93,7 @@
 		<div class="container">
 			<div class="row justify-content-center pb-5">
 				<div class="col-lg-6 heading-section text-center ftco-animate">
-					<h2 class="mb-4">More than <span>35+</span> years we provide <span>IT Solution</span></h2>
+					<h2 class="mb-4">More than <span>35+</span> years we provide <span>SoftDiet</span></h2>
 					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
 				</div>
 			</div>
@@ -183,7 +183,7 @@
 		<div class="container">
 			<div class="row justify-content-center pb-5">
 				<div class="col-md-6 heading-section text-center ftco-animate">
-					<h2 class="mb-4">Our Exclusive <span>IT Solution</span> Services</h2>
+					<h2 class="mb-4">Our Exclusive <span>SoftDiet</span> Services</h2>
 				</div>
 			</div>
 			<div class="row d-flex no-gutters">
@@ -639,7 +639,7 @@
 				<div class="col-md-12 text-center">
 
 					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> SoftDiet
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 					</div>
 				</div>

@@ -81,8 +81,8 @@
  <div class="container">
   <div class="row justify-content-center pb-5">
     <div class="col-lg-6 heading-section text-center ftco-animate">
-      <h2 class="mb-4">More than <span>35+</span> years we provide <span>IT Solution</span></h2>
-      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+      <h2 class="mb-4">More than <span>35+</span> years we provide <span>SoftDiet</span></h2>
+      <p>Softdiet é um serviço que dispõe aos nutricionistas e dietistas um software para a gestão online das consultas de nutrição e dietética, baseado em evidência e adaptado a todas as etapas da vida</p>
     </div>
   </div>
   <div class="row">
@@ -124,7 +124,7 @@
   <div class="col-md-6 p-3 pl-md-5 py-5 bg-primary">
     <div class="row justify-content-start pb-3">
       <div class="col-md-12 heading-section heading-section-white ftco-animate">
-        <h2 class="mb-4">Consult us here in <span>ITSolution</span></h2>
+        <h2 class="mb-4">Consult us here in <span>SoftDiet</span></h2>
         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
       </div>
     </div>
