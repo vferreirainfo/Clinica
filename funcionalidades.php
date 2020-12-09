@@ -19,6 +19,8 @@
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/meuestilo.css">
+  
+  
 </head>
 <body>
   <div class="wrap">
@@ -84,11 +86,11 @@
    <div class="col-md-4">
     <div class="services-2 text-center">
      <div class="icon">
-      <span class="flaticon-web-programming"></span>
+      <span class="flaticon-restaurant"></span>
     </div>
     <div class="text">
       <h3>Planos alimentares</h3>
-      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+      <p>Disponível 11 mil alimentos, mais de mil medidas caseiras na base de dados INSA e 750 na base de dados TACO.</p>
     </div>
   </div>
 </div>
@@ -96,7 +98,7 @@
 <div class="col-md-4">
   <div class="services-2 text-center">
    <div class="icon">
-    <span class="flaticon-math"></span>
+    <span class="flaticon-cell-phone"></span>
   </div>
   <div class="text">
     <h3>App Mobile</h3>
@@ -107,11 +109,11 @@
 <div class="col-md-4">
     <div class="services-2 text-center">
      <div class="icon">
-      <span class="flaticon-web-programming"></span>
+      <span class="flaticon-math"></span>
     </div>
     <div class="text">
-      <h3>Web Development</h3>
-      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+      <h3>Alimentos Personalizados</h3>
+      <p>Poderá introduzir novos alimentos à base de dados</p>
     </div>
   </div>
 </div>
@@ -122,7 +124,7 @@
    <div class="col-md-4">
     <div class="services-2 text-center">
      <div class="icon">
-      <span class="flaticon-web-programming"></span>
+      <span class="flaticon-weight-scale"></span>
     </div>
     <div class="text">
       <h3>Planos alimentares</h3>
@@ -137,7 +139,7 @@
     <span class="flaticon-math"></span>
   </div>
   <div class="text">
-    <h3>App Mobile</h3>
+    <h3>Calculo de gasto energético</h3>
     <p>Idelize os seus clientes com uma maior aproximação através da App mobile.A nossa app é compativel com os sistemas android e Iphone</p>
   </div>
 </div>
@@ -145,7 +147,7 @@
 <div class="col-md-4">
     <div class="services-2 text-center">
      <div class="icon">
-      <span class="flaticon-web-programming"></span>
+      <span class="flaticon-pdf-file"></span>
     </div>
     <div class="text">
       <h3>Web Development</h3>
