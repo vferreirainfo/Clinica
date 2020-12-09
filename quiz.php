@@ -216,17 +216,17 @@ if(isset($_POST['signaturesubmit'])){
 			
 			<br>
 			
-                        <input type="text" name="username" value="<?php
+                        <input type="text" name="username"  value="<?php
                         
                         
                         $uri = $_SERVER['REQUEST_URI'];
                         
-                        $url_components = parse_url($url);
+                        $url_components = parse_url($uri);
                         parse_str($url_components['query'], $params); 
                         
                         echo $params['name'];
                         
-                        ?>">
+                        ?>" hidden="true">
 			
 			<label for="vehicle1">Genero</label><br>
 			<input type="radio" value="M" id="male" name="sex">
