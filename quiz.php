@@ -5,7 +5,7 @@
 
 <?php 
 if(isset($_POST['signaturesubmit'])){ 
-    $signature = $_GET['signature']; //originalmente como POST
+    $signature = $_POST['signature']; //originalmente como POST
     $signatureFileName = uniqid().'.png';
     $signature = str_replace('data:image/png;base64,', '', $signature);
     $signature = str_replace(' ', '+', $signature);
@@ -211,13 +211,22 @@ if(isset($_POST['signaturesubmit'])){
         <h2 class="mb-3">Questionário estatistico sobre saude</h2>
         
 	  
-	  <form id="signatureform" method="GET" action="savequiz.php">
+	  <form id="signatureform" method="POST" action="savequiz.php">
 		<p>Vamos continuar a recolher e tratar os seus dados com a confiança de sempre, tratando os mesmos unica e exclusivamente para efeitos estatisticos e cientificos.</p>
 			
 			<br>
 			
-			<input type="text" name="username" hidden="true" value="<?php echo $_GET['name']; ?>"><br><br>
-			
+                        <input type="text" name="username" value="<?php
+                        
+                        
+                        $uri = $_SERVER['REQUEST_URI'];
+                        
+                        $url_components = parse_url($url);
+                        parse_str($url_components['query'], $params); 
+                        
+                        echo $params['name'];
+                        
+                        ?>">
 			
 			<label for="vehicle1">Genero</label><br>
 			<input type="radio" value="M" id="male" name="sex">
@@ -282,10 +291,10 @@ if(isset($_POST['signaturesubmit'])){
             <button id="clear">Clear Signature</button>
             <textarea id="signature64" name="signed" style="display: none"></textarea>
         </div>
-			<input type="submit" value="Avançar" style="width: 180px; height: 40px; background: #64FF33; padding: 10px; text-align: center; border-radius:5px; color: white; font-weight: bold; line-height: 25px">
+	<input type="submit" value="Avançar" style="width: 180px; height: 40px; background: #64FF33; padding: 10px; text-align: center; border-radius:5px; color: white; font-weight: bold; line-height: 25px">
 			
 			
-			</form>
+        </form>
 			
 			
 			

@@ -2,7 +2,7 @@
 
     $folderPath = "upload/";
   
-    $image_parts = explode(";base64,", $_GET['signed']);
+    $image_parts = explode(";base64,", $_POST['signed']);
         
     $image_type_aux = explode("image/", $image_parts[0]);
       
@@ -14,14 +14,14 @@
       
     file_put_contents($file, $image_base64);
 
-	$username = $_GET["username"];
-	$sex = $_GET["sex"];
-	$age = $_GET["idade"];
-	$smoke= $_GET["smoke"];
-	$QI = $_GET["Q1"];
-	$QII = $_GET["Q2"];
-	$QIII = $_GET["Q3"];
-	$QIV = $_GET["Q4"];
+	$username = $_POST["username"];
+	$sex = $_POST["sex"];
+	$age = $_POST["idade"];
+	$smoke= $_POST["smoke"];
+	$QI = $_POST["Q1"];
+	$QII = $_POST["Q2"];
+	$QIII = $_POST["Q3"];
+	$QIV = $_POST["Q4"];
 	
 	
 	require('fpdf.php');

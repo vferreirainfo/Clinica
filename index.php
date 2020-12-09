@@ -64,7 +64,7 @@
 	
 	<div class="contact-wrap w-100 p-md-5 p-4">
 									<h3 class="mb-4" style="text-align:center">Entrar no sistema</h3>
-									<form id="contactForm" name="contactForm" class="contactForm" onsubmit="login()">
+									<form id="contactForm" name="contactForm" method="POST" class="contactForm" onsubmit="login()">
 										<div class="row">
 											<div class="col-md-6">
 												<div class="form-group">
