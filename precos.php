@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>SoftDiet - QuizWebApp</title>
+  <title>SoftDiet</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
@@ -72,8 +72,8 @@
   <div class="container">
     <div class="row no-gutters slider-text align-items-end justify-content-center">
       <div class="col-md-9 ftco-animate pb-5 text-center">
-        <h1 class="mb-3 bread" id="title">Funcionalidades</h1>
-        <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>About us <i class="fa fa-chevron-right"></i></span></p>
+        <h1 class="mb-3 bread" id="title">Preços</h1>
+        <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>About<i class="fa fa-chevron-right"></i></span></p>
       </div>
     </div>
   </div>
@@ -159,7 +159,7 @@
  <div class="container-fluid">
   <div class="row justify-content-center mb-5 pb-3">
     <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-      <h2 class="mb-4">Our insights &amp; creative ideas</h2>
+      <h2 class="mb-4">Nosso plano de preços</h2>
     </div>
   </div>
   <div class="row ftco-animate">
