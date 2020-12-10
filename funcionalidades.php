@@ -127,8 +127,8 @@
       <span class="flaticon-weight-scale"></span>
     </div>
     <div class="text">
-      <h3>Planos alimentares</h3>
-      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+      <h3>Antropometria</h3>
+      <p>Registe todas as medidas antropométricas estandardizadas pela ISAK e bioimpedância</p>
     </div>
   </div>
 </div>
@@ -140,7 +140,7 @@
   </div>
   <div class="text">
     <h3>Calculo de gasto energético</h3>
-    <p>Idelize os seus clientes com uma maior aproximação através da App mobile.A nossa app é compativel com os sistemas android e Iphone</p>
+    <p>Disponível equações preditivas para todas as etapas da vida</p>
   </div>
 </div>
 </div>
@@ -150,8 +150,8 @@
       <span class="flaticon-pdf-file"></span>
     </div>
     <div class="text">
-      <h3>Web Development</h3>
-      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+      <h3>Entregáveis em PDF</h3>
+      <p>Download ou envio do plano alimentar por e-mail à distância de um clique</p>
     </div>
   </div>
 </div>
@@ -172,8 +172,8 @@
   <div class="col-md-6 p-3 pl-md-5 py-5 bg-primary">
     <div class="row justify-content-start pb-3">
       <div class="col-md-12 heading-section heading-section-white ftco-animate">
-        <h2 class="mb-4">Consult us here in <span>SoftDiet</span></h2>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+        <h2 class="mb-4">Consulte-nos nós estamos online<span>SoftDiet</span></h2>
+        <p>Os sócios com as cotas em dia recebem 20% de desconto em todas as licenças.</p>
       </div>
     </div>
     <div class="row">
@@ -189,7 +189,7 @@
         <div class="block-18 mb-4">
           <div class="text">
             <strong class="number" data-number="568">0</strong>
-            <span>Happy Clients</span>
+            <span>Clients Gold</span>
           </div>
         </div>
       </div>
@@ -197,7 +197,7 @@
         <div class="block-18 mb-4">
           <div class="text">
             <strong class="number" data-number="478">0</strong>
-            <span>Business Partners</span>
+            <span>Parcerias</span>
           </div>
         </div>
       </div>
@@ -205,7 +205,7 @@
         <div class="block-18 mb-4">
           <div class="text">
             <strong class="number" data-number="780">0</strong>
-            <span>IT Consultant</span>
+            <span>SoftDiet</span>
           </div>
         </div>
       </div>
@@ -221,7 +221,7 @@
  <div class="container-fluid">
   <div class="row justify-content-center mb-5 pb-3">
     <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-      <h2 class="mb-4">Our insights &amp; creative ideas</h2>
+      <h2 class="mb-4">Consulte-nos nós estamos online</h2>
     </div>
   </div>
   <div class="row ftco-animate">
