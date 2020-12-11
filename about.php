@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>SoftDiet - QuizWebApp</title>
+  <title>SoftDiet</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
@@ -82,7 +82,9 @@
   <div class="row justify-content-center pb-5">
     <div class="col-lg-6 heading-section text-center ftco-animate">
       <h2 class="mb-4">More than <span>35+</span> years we provide <span>SoftDiet</span></h2>
-      <p>Softdiet é um serviço que dispõe aos nutricionistas e dietistas um software para a gestão online das consultas de nutrição e dietética, baseado em evidência e adaptado a todas as etapas da vida</p>
+      <p>Fundado e desenvolvido pelo nutricionista Eduardo Machado, Softdiet é um serviço que dispõe aos nutricionistas e dietistas um software para a gestão online das consultas de nutrição e dietética, baseado em evidência e adaptado a todas as etapas da vida.
+         O nutricionista pode criar o registo dos seus clientes, a partir de um navegador web ou aplicação Android, tais como os dados sociodemográficos, anamnese nutricional, antropometria para o estudo da composição/forma do corpo e elaboração de planos alimentares 
+         pelo sistema de gramas ou medidas caseiras, permitindo assim, uma visão geral da evolução deste. Todas estas ferramentas conectadas à uma aplicação mobile para o paciente, irão proporcionar uma diminuição no tempo de consulta, aumento de produtividade e uma maior fidelização.</p>
     </div>
   </div>
   <div class="row">
@@ -92,8 +94,8 @@
       <span class="flaticon-web-programming"></span>
     </div>
     <div class="text">
-      <h3>Web Development</h3>
-      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+      <h3>Sobre nós</h3>
+      <p>Softdiet é um serviço que dispõe aos nutricionistas e dietistas um software para a gestão online das consultas de nutrição e dietética</p>
     </div>
   </div>
 </div>
@@ -106,8 +108,8 @@
     <span class="flaticon-secure"></span>
   </div>
   <div class="text">
-    <h3>Server Security</h3>
-    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+    <h3>SoftDiet</h3>
+    <p>O nutricionista pode criar o registo dos seus clientes, a partir de um navegador web ou aplicação Android, tais como os dados sociodemográficos</p>
   </div>
 </div>
 </div>
@@ -124,8 +126,8 @@
   <div class="col-md-6 p-3 pl-md-5 py-5 bg-primary">
     <div class="row justify-content-start pb-3">
       <div class="col-md-12 heading-section heading-section-white ftco-animate">
-        <h2 class="mb-4">Consult us here in <span>SoftDiet</span></h2>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+        <h2 class="mb-4">Soft<span>Diet</span></h2>
+        <p>O nutricionista pode criar o registo dos seus clientes, a partir de um navegador web ou aplicação Android, tais como os dados sociodemográficos</p>
       </div>
     </div>
     <div class="row">
@@ -133,7 +135,7 @@
         <div class="block-18 mb-4">
           <div class="text">
             <strong class="number" data-number="750">0</strong>
-            <span>Project Complete</span>
+            <span>Clientes Gold</span>
           </div>
         </div>
       </div>
@@ -141,7 +143,7 @@
         <div class="block-18 mb-4">
           <div class="text">
             <strong class="number" data-number="568">0</strong>
-            <span>Happy Clients</span>
+            <span>Planos Alimentares</span>
           </div>
         </div>
       </div>
@@ -149,7 +151,7 @@
         <div class="block-18 mb-4">
           <div class="text">
             <strong class="number" data-number="478">0</strong>
-            <span>Business Partners</span>
+            <span>Parcerias</span>
           </div>
         </div>
       </div>
@@ -157,7 +159,7 @@
         <div class="block-18 mb-4">
           <div class="text">
             <strong class="number" data-number="780">0</strong>
-            <span>IT Consultant</span>
+            <span>Consultas</span>
           </div>
         </div>
       </div>
