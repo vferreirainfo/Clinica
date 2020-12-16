@@ -81,7 +81,7 @@
  <div class="container">
   <div class="row justify-content-center pb-5">
     <div class="col-lg-6 heading-section text-center ftco-animate">
-      <h2 class="mb-4">More than <span>35+</span> years we provide <span>SoftDiet</span></h2>
+      <h2 class="mb-4"><span> Sobre </span> nós <span> SoftDiet</span></h2>
       <p>Fundado e desenvolvido pelo nutricionista Eduardo Machado, Softdiet é um serviço que dispõe aos nutricionistas e dietistas um software para a gestão online das consultas de nutrição e dietética, baseado em evidência e adaptado a todas as etapas da vida.
          O nutricionista pode criar o registo dos seus clientes, a partir de um navegador web ou aplicação Android, tais como os dados sociodemográficos, anamnese nutricional, antropometria para o estudo da composição/forma do corpo e elaboração de planos alimentares 
          pelo sistema de gramas ou medidas caseiras, permitindo assim, uma visão geral da evolução deste. Todas estas ferramentas conectadas à uma aplicação mobile para o paciente, irão proporcionar uma diminuição no tempo de consulta, aumento de produtividade e uma maior fidelização.</p>

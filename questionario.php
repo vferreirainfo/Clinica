@@ -112,13 +112,13 @@
                             <input type="checkbox" id="RGPD">
                             <label for="dieta2"> Eu autorizo o tratamento de dados pessoais para fins estatisticos e cientificos</label><br>
 
-                            <input type="submit" value="Avançar" style="width: 180px; height: 40px; background: #64FF33; padding: 10px;
+                            <input type="submit" value="Concordo" style="width: 180px; height: 40px; background: #64FF33; padding: 10px;
                                    text-align: center; border-radius:5px; color: white;
                                    font-weight: bold; line-height: 25px">
 
                             <a style="display: inline-block; margin-top:-8px; width: 180px; height: 40px; background: #FF3F33; padding: 10px;
                                text-align: center; border-radius:5px; color: white;
-                               font-weight: bold; line-height: 25px" href="end.php"> Não consinto</a>
+                               font-weight: bold; line-height: 25px" href="end.php"> Não concordo</a>
 
 
                         </form>
