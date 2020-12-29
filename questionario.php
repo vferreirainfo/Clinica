@@ -1,3 +1,19 @@
+<?PHP
+
+session_start();
+if($_SESSION['paciente_id']=='')
+{
+    header('Location:index.php');
+    die();
+}
+
+
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
     <script type="text/javascript">
