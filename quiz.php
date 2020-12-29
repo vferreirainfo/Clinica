@@ -1,8 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+function submit{
+$.ajax(
+{
+url : "grava-anamnese-auto.php",
+type: "POST",
+data : {id: "<?=$id?>", anamnese_motivo_consulta: anamnese_motivo_consulta, anamnese_patologias: anamnese_patologias, anamnese_exames: anamnese_exames, anamnese_medicacao: anamnese_medicacao, anamnese_medicacao_descritivo: anamnese_medicacao_descritivo, anamnese_tabaco: anamnese_tabaco, anamnese_alcool: anamnese_alcool, anamnese_alcool_descritivo: anamnese_alcool_descritivo, anamnese_historial_clinico: anamnese_historial_clinico, anamnese_interfere_alimentacao: anamnese_interfere_alimentacao, anamnese_alteracao_gastrointestinal: anamnese_alteracao_gastrointestinal, anamnese_consistencia_alimentacao: anamnese_consistencia_alimentacao, anamnese_consumo_alimentar: anamnese_consumo_alimentar, anamnese_consumo_alimentar_descritivo: anamnese_consumo_alimentar_descritivo, anamnese_alergia_alimentar: anamnese_alergia_alimentar, anamnese_alergia_alimentar_descritivo: anamnese_alergia_alimentar_descritivo, anamnese_hora_acordar: anamnese_hora_acordar, anamnese_gasto_energetico: anamnese_gasto_energetico, anamnese_taxa_metabolica: anamnese_taxa_metabolica, anamnese_fator_atividade: anamnese_fator_atividade, anamnese_gravida_amamentar: anamnese_gravida_amamentar, anamnese_gravidez: anamnese_gravidez, anamnese_aleitamento: anamnese_aleitamento, anamnese_notas_clinicas: anamnese_notas_clinicas},
+success:function(data)
+{
+if(data!=2){
+Notiflix.Notify.Success('<?if($idioma==1){echo "Salvo com sucesso!";} else{echo "Saved successfully!";}?>', {showOnlyTheLastOne: false, timeout: 1000});
+is_Dirty=false;
+}
+}
+});
+}
+</script>
 <?php 
 if(isset($_POST['signaturesubmit'])){ 
     $signature = $_POST['signature']; //originalmente como POST
