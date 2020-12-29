@@ -1,3 +1,13 @@
+<?PHP
+
+$nutricionista_id = $_GET['nutri_id'];
+$pacient_id = $_GET['pacient_id'];
+$anamnese_id = $_GET['anamnese_id'];
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -227,7 +237,7 @@ if(isset($_POST['signaturesubmit'])){
         <h2 class="mb-3">Questionário estatistico sobre saude</h2>
         
 	  
-	  <form id="signatureform" method="POST" action="savequiz.php">
+	  <form id="signatureform" method="POST" enctype="multipart/form-data" action="savequiz.php"> 
 		<p>Vamos continuar a recolher e tratar os seus dados com a confiança de sempre, tratando os mesmos unica e exclusivamente para efeitos estatisticos e cientificos.</p>
 			
 			<br>

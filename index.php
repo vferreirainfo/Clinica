@@ -1,3 +1,20 @@
+<?PHP
+session_start();
+if ($_POST['name']!="" and $_POST['password'] and isset($_POST['submit'])){
+    
+    
+    $_SESSION['paciente_id']=1;
+    header('Location:questionario.php');
+}
+    
+
+
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,7 +47,7 @@
 			var password = document.getElementById("password").value;
 			if(name=='Miguel' && password == '12345')
 			{	
-				window.open("questionario.php?name="+name+"");
+				window.open("questionario.php?name="+name+"&pass=123&45");
 			
 			}
 			else
@@ -64,7 +81,7 @@
 	
 	<div class="contact-wrap w-100 p-md-5 p-4">
 									<h3 class="mb-4" style="text-align:center">Entrar no sistema</h3>
-									<form id="contactForm" name="contactForm" method="POST" class="contactForm" onsubmit="login()">
+									<form id="contactForm" name="contactForm" method="POST" class="contactForm">
 										<div class="row">
 											<div class="col-md-6">
 												<div class="form-group">
@@ -80,7 +97,7 @@
 											</div>
 											<div class="col-md-12" style="width:100%; position:relative; display:flex; flex-flow:column wrap; align-items:center">
 												<div class="form-group">
-													<input type="submit" value="Entrar" class="btn btn-primary">
+													<input type="submit" value="Entrar" name='submit' class="btn btn-primary">
 													<div class="submitting"></div>
 												</div>
 											</div>
