@@ -134,7 +134,7 @@ if($_SESSION['paciente_id']=='')
 
                             <a style="display: inline-block; margin-top:-8px; width: 180px; height: 40px; background: #FF3F33; padding: 10px;
                                text-align: center; border-radius:5px; color: white;
-                               font-weight: bold; line-height: 25px" href="end.php"> Não concordo</a>
+                               font-weight: bold; line-height: 25px" href="logout.php"> Não concordo</a>
 
 
                         </form>

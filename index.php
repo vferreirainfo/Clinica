@@ -1,6 +1,6 @@
 <?PHP
 session_start();
-if ($_POST['name']!="" and $_POST['password'] and isset($_POST['submit'])){
+if ($_POST['name']!="" and $_POST['password']!='' and isset($_POST['submit'])){
     
     
     $_SESSION['paciente_id']=1;
