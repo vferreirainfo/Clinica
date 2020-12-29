@@ -16,20 +16,6 @@ if($_SESSION['paciente_id']=='')
 
 <!DOCTYPE html>
 <html lang="en">
-    <script type="text/javascript">
-
-        function validate() {
-            var url = window.location.href;
-            var nurl = new URL(url);
-            var name = nurl.searchParams.get("name");
-
-            if (document.getElementById('termos').checked && document.getElementById('pprivacidade').checked && document.getElementById('RGPD').checked) {
-                window.open("quiz.php?name=" + name + "");
-            } else {
-                alert("Por favor forneça consentimento, ou se não está de acordo clique em não consinto");
-            }
-        }
-    </script>
     <head>
         <title>SoftDiet</title>
         <meta charset="utf-8">
@@ -120,12 +106,12 @@ if($_SESSION['paciente_id']=='')
                         <p>Vamos continuar a recolher e tratar os seus dados com a confiança de sempre, tratando os mesmos unica e exclusivamente para efeitos estatisticos e cientificos.</p>
 
                         <br>
-                        <form onsubmit="validate()">
-                            <input type="checkbox" id="termos">
+                        <form method="Post" action="quiz.php">
+                            <input type="checkbox" required id="termos">
                             <label for="dieta1"> Eu aceito os termos de utilização</label><br>
-                            <input type="checkbox" id="pprivacidade">
+                            <input type="checkbox" required="" id="pprivacidade">
                             <label for="dieta2"> Eu tenho conhecimento e aceito a politica de privacidade</label><br>
-                            <input type="checkbox" id="RGPD">
+                            <input type="checkbox" required id="RGPD">
                             <label for="dieta2"> Eu autorizo o tratamento de dados pessoais para fins estatisticos e cientificos</label><br>
 
                             <input type="submit" value="Concordo" style="width: 180px; height: 40px; background: #64FF33; padding: 10px;
@@ -134,7 +120,7 @@ if($_SESSION['paciente_id']=='')
 
                             <a style="display: inline-block; margin-top:-8px; width: 180px; height: 40px; background: #FF3F33; padding: 10px;
                                text-align: center; border-radius:5px; color: white;
-                               font-weight: bold; line-height: 25px" href="logout.php"> Não concordo</a>
+                               font-weight: bold; line-height: 25px" href="upload/logout.php"> Não concordo</a>
 
 
                         </form>
