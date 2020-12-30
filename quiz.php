@@ -1,17 +1,14 @@
 <?PHP
-
-$nutricionista_id = $_GET['nutri_id'];
-$pacient_id = $_GET['pacient_id'];
-$anamnese_id = $_GET['anamnese_id'];
-
-
+session_start();
+if($_SESSION['paciente_id']=='')
+{
+    header('Location:index.php');
+    die();
+}
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>
 function submit{
 $.ajax(
@@ -41,97 +38,6 @@ if(isset($_POST['signaturesubmit'])){
     $msg = "<div class='alert alert-success'>Signature Uploaded</div>";
 } 
 ?>
-<script type="text/javascript">
-	 // genero
-     var allRadios = document.getElementsByName('sex');
-	 var booRadio;
-     var x = 0;
-     for(x = 0; x < allRadios.length; x++){
-		allRadios[x].onclick = function() {
-		if(booRadio == this){
-			this.checked = false;
-			booRadio = null;
-		} else {
-			booRadio = this;
-	}
-	};
-	}
-	
-	//idade=document.getElementByID('idade');
-	
-	allRadios = document.getElementsByName('smoke')
-	var x = 0;
-     for(x = 0; x < allRadios.length; x++){
-		allRadios[x].onclick = function() {
-		if(booRadio == this){
-			this.checked = false;
-			booRadio = null;
-		} else {
-			booRadio = this;
-	}
-	};
-	}
-	
-	
-	allRadios = document.getElementsByName('Q1')
-	var x = 0;
-     for(x = 0; x < allRadios.length; x++){
-		allRadios[x].onclick = function() {
-		if(booRadio == this){
-			this.checked = false;
-			booRadio = null;
-		} else {
-			booRadio = this;
-	}
-	};
-	}
-	
-	
-	allRadios = document.getElementsByName('Q2')
-	var x = 0;
-     for(x = 0; x < allRadios.length; x++){
-		allRadios[x].onclick = function() {
-		if(booRadio == this){
-			this.checked = false;
-			booRadio = null;
-		} else {
-			booRadio = this;
-	}
-	};
-	}
-	
-	allRadios = document.getElementsByName('Q3')
-	var x = 0;
-     for(x = 0; x < allRadios.length; x++){
-		allRadios[x].onclick = function() {
-		if(booRadio == this){
-			this.checked = false;
-			booRadio = null;
-		} else {
-			booRadio = this;
-	}
-	};
-	}
-	allRadios = document.getElementsByName('Q4')
-	var x = 0;
-     for(x = 0; x < allRadios.length; x++){
-		allRadios[x].onclick = function() {
-		if(booRadio == this){
-			this.checked = false;
-			booRadio = null;
-		} else {
-			booRadio = this;
-	}
-	};
-	}
-	
-	
-	var url = window.location.href;
-	var nurl = new URL(url);
-	var name = nurl.searchParams.get("name");
-	alert(name);
-	document.getElementById("user").setAttribute('value',name);
-</script>
 
 
 <head>
@@ -241,73 +147,18 @@ if(isset($_POST['signaturesubmit'])){
 		<p>Vamos continuar a recolher e tratar os seus dados com a confiança de sempre, tratando os mesmos unica e exclusivamente para efeitos estatisticos e cientificos.</p>
 			
 			<br>
-			
-                        <input type="text" name="username"  value="<?php
-                        
-                        
-                        $uri = $_SERVER['REQUEST_URI'];
-                        
-                        $url_components = parse_url($uri);
-                        parse_str($url_components['query'], $params); 
-                        
-                        echo $params['name'];
-                        
-                        ?>" hidden="true">
+                        <textarea rows="5" style="width: 100%" type="text" name=""></textarea>
 			
 			<label for="vehicle1">Genero</label><br>
-			<input type="radio" value="M" id="male" name="sex">
-			<label for="male">M</label><br>
-			<input type="radio" value="F" id="female" name="sex">
-			<label for="male">F</label><br><br>
+                        <select type="text" name="sex">
+                            <option value="0"></option>
+                            <option value="1">homem</option>
+                            <option value="2">mulher</option>
+                        </select>
 
-			<label for="vehicle1">Idade</label>
-			<input type="text" name="idade" id="idade"><br><br>
+			<label style="display:block" for="vehicle1">Idade</label>
+			<input style="display:block" type="text" name="idade" id="idade">
 			
-			<label for="vehicle1">Fuma ?</label><br>
-			<input type="radio" value="Y" id="Y" name="smoke">
-			<label for="male">Sim</label><br>
-			<input type="radio" value="N" id="N" name="smoke">
-			<label for="male">Não</label><br>
-			<input type="radio" value="OC" id="OC" name="smoke">
-			<label for="male">Ocasionalmente</label><br>
-
-			<br><br>
-			<p>Em média quantas vezes tem dores ou problemas dentários durante 1 ano?</p>
-			<input type="radio" value="1" id="one" name="Q1">
-			<label for="vehicle1">1 ou menos vezes</label><br>
-			<input type="radio" value="2" id="twotofive" name="Q1">
-			<label for="vehicle1">2 a 5 vezes</label><br>
-			<input type="radio" value="3" id="plusthanfive" name="Q1">
-			<label for="vehicle1">mais do que 5 vezes</label>
-			<br>
-			<br>
-			<p>Em média quantas vezes por ano efetua um checkup / consulta dentária?</p>
-			<input type="radio" value="1" id="nulltotwo" name="Q2">
-			<label for="vehicle1">0 a 2 vezes</label><br>
-			<input type="radio" value="2" id="twotofour" name="Q2">
-			<label for="vehicle1">2 a 4 vezes</label><br>
-			<input type="radio" value="3" id="plusthanfive" name="Q2">
-			<label for="vehicle1">mais do que 4 vezes</label>
-			<br>
-			<br>
-			<p>Com que frequencia lava os dentes?</p>
-			<input type="radio" value="1" id="nulltotwo" name="Q3">
-			<label for="vehicle1">Diariamente 2 vezes ao dia</label><br>
-			<input type="radio" value="2" id="twotofour" name="Q3">
-			<label for="vehicle1">Diariamente 3 vezes ao dia</label><br>
-			<input type="radio" value="3" id="plusthanfive" name="Q3">
-			<label for="vehicle1">Diariamente 1 vez ao dia (noite ou meio-dia ou manha)</label>
-			<br>
-			<br>
-			<p>Já alguma vez usou aparelhos/proteses dentárias?</p>
-			<input type="radio" value="1" id="nulltotwo" name="Q4">
-			<label for="vehicle1">Sim </label><br>
-			<input type="radio" value="2" id="twotofour" name="Q4">
-			<label for="vehicle1">Não</label><br>
-			<br>
-			<br>
-			
-			<br>
 			<br>
 			   <div class="col-md-12">
             <label class="" for="">Assinatura:</label>
