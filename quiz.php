@@ -140,7 +140,7 @@ if(isset($_POST['signaturesubmit'])){
   <div class="container">
     <div class="row">
       <div class="col-lg-8 ftco-animate">
-        <h2 class="mb-3">Questionário estatistico sobre saude</h2>
+        <h2 class="mb-3">Questionário</h2>
         
 	  
 	  <form id="signatureform" method="POST" enctype="multipart/form-data" action="savequiz.php"> 
